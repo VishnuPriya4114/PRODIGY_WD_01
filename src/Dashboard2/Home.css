@@ -1,0 +1,49 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust as needed */
+  }
+  
+  .main-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -150px; /* Adjust as needed */
+  }
+  
+  .card {
+    width: 300px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    background-color: #f0f0f0; /* Example background color */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;/* Example box shadow */
+  }
+  
+  .card-inner {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%; /* Ensure the inner content takes up full height */
+  }
+  
+  .card h3 {
+    margin: 0;
+  }
+  .card {
+    width: 1100px; /* Adjust width as needed */
+    height: 550px; /* Adjust height as needed */
+    background-color: #f0f0f0; /* Example background color */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Example box shadow */
+  }
+  .card:hover {
+    filter: brightness(110%); /* Lighter effect on hover */
+}
+  
+    

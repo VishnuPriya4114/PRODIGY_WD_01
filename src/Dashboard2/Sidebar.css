@@ -1,0 +1,12 @@
+#sidebar {
+    background-color:#2E3192; 
+}
+
+.sidebar-list-item:hover .icon,
+.sidebar-list-item:hover a {
+    color:red; 
+}
+#sidebar {
+    width: 250px; 
+  }
+  
